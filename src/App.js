@@ -1,14 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import {Button} from "@mui/material";
+import {EditFragmentComponent} from "./EditFragmentComponent";
+import {PRZYCISK_CZYTAJ} from "./KOLEJNY_KOMPONENT";
+
+
+
 
 function App() {
   return (
     <div className="App">
-        <Button variant="text">Text</Button>
-        <Button variant="contained">Contained</Button>
-        <Button variant="outlined">Outlined</Button>
-
+        <EditFragmentComponent></EditFragmentComponent>
+        <PRZYCISK_CZYTAJ></PRZYCISK_CZYTAJ>
     </div>
   );
 }
